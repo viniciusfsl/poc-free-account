@@ -1,7 +1,6 @@
 {
-  "name": "typescript-react-test",
+  "name": "poc",
   "version": "1.0.0",
-  "description": "Learning how to create React modules using TypeScript!",
   "main": "./lib/cjs/index.js",
   "module": "./lib/esm/index.js",
   "types": "./lib/esm/index.d.ts",
@@ -13,6 +12,7 @@
     "prepublishOnly": "yarn build"
   },
   "peerDependencies": {
+    "@procore/core-http": "^10.2.0",
     "react": "^16.0.0",
     "react-dom": "^16.0.0"
   },
